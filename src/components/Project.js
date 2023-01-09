@@ -16,6 +16,38 @@ const Project = () => {
           My Projects
         </h3>
         <div className="flex justify-center flex-col  items-center p-2">
+          
+        <div className="flex flex-col md:gap-16 mt-4 gap-3 shadow-sm shadow-black p-4 md:flex-row md:shadow-none">
+        <div className="rounded md:w-1/4 md:shadow-sm md:shadow-black md:mt-12 flex">
+          <img src={img5} alt="" />
+        </div>
+        <div className="flex flex-col gap-3 justify-center w-3/4">
+          <h1 className="text-3xl font-bold mt-2">E-Commerce</h1>
+          <div className="flex gap-3 ">
+            <span className="rounded-full bg-gray-700 text-white pl-3 pr-3 font-medium">
+              2022
+            </span>
+            <span className="text-red-500  font-semibold ">
+              <a
+                className="hover:bg-red-500 hover:text-white rounded-full p-2"
+                href="https://earnest-sprinkles-97232e.netlify.app/"
+                target={"_blank"}
+              >
+                Click here
+              </a>
+            </span>
+          </div>
+          <p className="mt-3 ">
+              In this project add signup and login functionality. All user data save in server.
+              it is full Responsive...
+              we can use  small and big screen ...
+
+              
+          </p>
+        </div>
+      </div>
+          
+          
           <div className="flex flex-col md:gap-16 mt-4 gap-3 shadow-sm shadow-black p-4 md:flex-row md:shadow-none">
             <div className="rounded md:w-1/4 md:shadow-sm md:shadow-black md:mt-12 flex">
               <img src={img} alt="" />
@@ -123,31 +155,7 @@ const Project = () => {
             </div>
           </div>
           
-          <div className="flex flex-col md:gap-16 mt-4 gap-3 shadow-sm shadow-black p-4 md:flex-row md:shadow-none">
-          <div className="rounded md:w-1/4 md:shadow-sm md:shadow-black md:mt-12 flex">
-            <img src={img5} alt="" />
-          </div>
-          <div className="flex flex-col gap-3 justify-center w-3/4">
-            <h1 className="text-3xl font-bold mt-2">E-Commerce</h1>
-            <div className="flex gap-3 ">
-              <span className="rounded-full bg-gray-700 text-white pl-3 pr-3 font-medium">
-                2022
-              </span>
-              <span className="text-red-500  font-semibold ">
-                <a
-                  className="hover:bg-red-500 hover:text-white rounded-full p-2"
-                  href="https://melodic-babka-9d5226.netlify.app/"
-                  target="_blank"
-                >
-                  Click here
-                </a>
-              </span>
-            </div>
-            <p className="mt-3 ">
-           This website  is currently only for large  screens. Right now it is in the development phase.
-            </p>
-          </div>
-        </div>
+          
 
         </div>
       </div>
