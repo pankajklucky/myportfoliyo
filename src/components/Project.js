@@ -4,6 +4,7 @@ import img2 from "./img/weather.png";
 import img3 from "./img/portfolio.png";
 import img4 from "./img/todo.png";
 import img5 from "./img/e-commerce.png"
+import img6 from "./img/user.png"
 
 
 
@@ -45,23 +46,51 @@ const Project = () => {
               
           </p>
         </div>
-      </div>
+          </div>
+          
+          <div className="flex flex-col md:gap-16 mt-4 gap-3 shadow-sm shadow-black p-4 md:flex-row md:shadow-none">
+          <div className="rounded md:w-1/4 md:shadow-sm md:shadow-black md:mt-12 flex">
+            <img src={img} alt="" />
+          </div>
+          <div className="flex flex-col gap-3 justify-center w-3/4">
+            <h1 className="text-3xl font-bold mt-2">Business Website</h1>
+            <div className="flex gap-3 ">
+              <span className="rounded-full bg-gray-700 text-white pl-3 pr-3 font-medium">
+                2022
+              </span>
+              <span className="text-red-500  font-semibold ">
+                <a
+                  className="hover:bg-red-500 hover:text-white rounded-full p-2"
+                  href="https://regal-melba-8d3487.netlify.app"
+                  target="_blank"
+                >
+                  Click here
+                </a>
+              </span>
+            </div>
+            <p className="mt-3 ">
+              This is a singal page application .
+              I have used React Router to make this a single page application. 
+              Bootstrap was used to make  Responsive.
+            </p>
+          </div>
+        </div>
           
           
           <div className="flex flex-col md:gap-16 mt-4 gap-3 shadow-sm shadow-black p-4 md:flex-row md:shadow-none">
             <div className="rounded md:w-1/4 md:shadow-sm md:shadow-black md:mt-12 flex">
-              <img src={img} alt="" />
+              <img src={img6} alt="" />
             </div>
             <div className="flex flex-col gap-3 justify-center w-3/4">
-              <h1 className="text-3xl font-bold mt-2">Business Website</h1>
+              <h1 className="text-3xl font-bold mt-2">User Mangement Modules</h1>
               <div className="flex gap-3 ">
                 <span className="rounded-full bg-gray-700 text-white pl-3 pr-3 font-medium">
-                  2022
+                  2023
                 </span>
                 <span className="text-red-500  font-semibold ">
                   <a
                     className="hover:bg-red-500 hover:text-white rounded-full p-2"
-                    href="https://regal-melba-8d3487.netlify.app"
+                    href="https://candid-jelly-78a447.netlify.app/"
                     target="_blank"
                   >
                     Click here
@@ -71,7 +100,9 @@ const Project = () => {
               <p className="mt-3 ">
                 This is a singal page application .
                 I have used React Router to make this a single page application. 
-                Bootstrap was used to make  Responsive.
+                tailwindcss  is  used  for styling.
+                and use rest api for fatch user data and put user data.
+                or create user data
               </p>
             </div>
           </div>
